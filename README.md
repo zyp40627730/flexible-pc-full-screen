@@ -24,3 +24,9 @@ npm run build
 ```
 npm run lint
 ```
+
+### IE兼容性问题
+```
+node_modules\lib-flexible-for-dashboard\dist\index.js
+修改 e = 16/9 修改为 e = e ? e : 16 / 9
+```
